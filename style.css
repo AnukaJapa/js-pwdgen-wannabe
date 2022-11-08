@@ -5,7 +5,25 @@ box-sizing: border-box;
 }
 
 body {
-
-    
-
+  height: 100vh;
+  background-color: aquamarine;
+  font-family: 'Fredoka', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
+
+.container > img {
+max-width:150px;
+border-radius: 60%;
+}
+input {
+    background-color: transparent;
+    /* border:none; */
+}
+
+h1 {
+    font-size:3rem;
+}
+

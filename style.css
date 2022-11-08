@@ -13,8 +13,12 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-
 .container {
+    max-width:500px;
+    min-height:470px;
+    color:white;
+    border-radius:20px;
+    background-image: linear-gradient(to right, red,rgb(248, 97, 97), rgb(206, 88, 184), rgb(135, 215, 241));
     width:40%;
     min-width:300px;
     height:80vh;
@@ -36,18 +40,24 @@ input {
     background-color: transparent;
     border:none;
     border-bottom:2px solid rgb(251, 249, 249);
-    color:rgb(251, 249, 249);
-    width:40%;
+    color:rgba(251, 249, 249, 0.647);
+    width:60%;
     min-width: 200px;
     height:7vh;
     min-height:40px;
     padding:4.3%;
 }
+
+::placeholder { 
+    color: rgba(255, 255, 255, 0.782);
+  }
+
 h1 {
     font-size:3rem;
+    margin-bottom: 15px;
 }
 
 button {
     padding:0.7rem;
-
+    margin:3% 0;
 }

@@ -5,6 +5,7 @@ box-sizing: border-box;
 }
 
 body {
+    background-image: url("images/concert-2527495.jpg");
   height: 100vh;
   background-color: aquamarine;
   font-family: 'Fredoka', sans-serif;
@@ -15,7 +16,7 @@ body {
 }
 .container {
     max-width:500px;
-    min-height:470px;
+    min-height:500px;
     color:white;
     border-radius:20px;
     background-image: linear-gradient(to right, red,rgb(248, 97, 97), rgb(206, 88, 184), rgb(135, 215, 241));
@@ -55,6 +56,8 @@ input {
 h1 {
     font-size:3rem;
     margin-bottom: 15px;
+    color:rgb(207, 207, 222);
+    text-shadow: 0px 0px 8px rgb(92, 32, 90);
 }
 
 button {

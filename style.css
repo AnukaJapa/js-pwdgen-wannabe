@@ -7,7 +7,7 @@ box-sizing: border-box;
 body {
     background-image: url("images/concert-2527495.jpg");
   height: 100vh;
-  background-color: aquamarine;
+  background-color: black;
   font-family: 'Fredoka', sans-serif;
 
   display: flex;

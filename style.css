@@ -32,7 +32,7 @@ body {
 .container > img {
 max-width:150px;
 border-radius: 60%;
-margin:10px 0px;
+margin:5vh 0px;
 }
 
 input {

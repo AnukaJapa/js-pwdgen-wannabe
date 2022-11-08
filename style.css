@@ -34,7 +34,9 @@ margin:10px 0px;
 input {
     font-size: 1.3rem;
     background-color: transparent;
-    /* border:none; */
+    border:none;
+    border-bottom:2px solid rgb(251, 249, 249);
+    color:rgb(251, 249, 249);
     width:40%;
     min-width: 200px;
     height:7vh;

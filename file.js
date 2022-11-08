@@ -3,6 +3,11 @@ let lastNameDocument =document.getElementById("lastName");
 let favoriteColorDocument =document.getElementById("favoriteColor");
 let number1Document = document.getElementById("number1");
 let number2Document = document.getElementById("number2");
+
+let passwordDisplay = document.querySelector(".inputs");
+let h2Display= document.querySelector("h2");
+let button = document.querySelector("button");
+
 let firstName;
 let lastName;
 let favoriteColor;
@@ -12,6 +17,10 @@ let generatedPassword;
 
 
 function calc(){
+if(button.textContent=="refresh"){
+    location.reload();
+} else {
+
     firstName = firstNameDocument.value;
     lastName=lastNameDocument.value;
     favoriteColor=favoriteColorDocument.value;
@@ -20,8 +29,15 @@ function calc(){
     let division = number1/number2;
 
     generatedPassword = firstName + lastName + favoriteColor + division; 
-    console.log(generatedPassword);
+
+    passwordDisplay.textContent =generatedPassword;
+    passwordDisplay.classList.add("passwordDisplay");
+    h2Display.textContent = "your password is here:";
+    button.textContent = "refresh";
 }
+
+}
+
 
 // let firstName =prompt("Please tell us your firstname");
 // let lastName =prompt("Please give us your lastname");
